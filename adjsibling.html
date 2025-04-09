@@ -1,0 +1,25 @@
+<!--Adjacent sibling : (One beside each other) adjacent elements are always sibling
+    represented using + symbol-->
+
+<style>
+    h2 + p {
+        color: blue;
+    }
+</style>
+<body>
+        <h2>Heading 2</h2>
+        <p>This paragraph comes directly after the h2 and will be styled.</p>
+    
+        <p>This paragraph comes after the first one, but will not be styled.</p>
+    
+        <h2>Another Heading 2</h2>
+        <p>This paragraph comes after another h2 and will also be styled.</p>
+    
+        <div>
+            <p>This paragraph is inside a div and won’t be affected.</p>
+        </div>
+</body>
+    
+
+<!--Selectors target some specific elements 
+ Pseudo class : will check the state of the element accordingly will apply the style-->
